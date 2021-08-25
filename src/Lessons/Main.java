@@ -17,7 +17,15 @@ public class Main {
     }
 
     public static void secondTask(){
+        Shapes[] shapes = { new Rect(),
+                            new Triangle(),
+                            new Circle(),
+                            new Square()
 
+        };
+
+        for(Shapes fig : shapes)
+            System.out.println(fig.getName());
     }
 
     public static void thirdTask(){
